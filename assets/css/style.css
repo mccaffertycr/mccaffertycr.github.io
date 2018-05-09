@@ -24,16 +24,10 @@
  }
  
  #about:hover {
-     color: #bde;
+     color: white;
+     background: black;
  }
- h2:hover {
-     color: #9f9;
- }
- 
- footer:hover {
-     color: #9f9;
- }
- 
+
  #portfolio:hover {
      color: white;
      background: black;
@@ -66,13 +60,17 @@
  }
  
  #about {
+     background: white;
      text-align: center;
-     font-size: 48px;
-     position: fixed;
-     left: 4%;
+     font-size: 13px;
+     width: 8%;
+     height: 16px;
+     padding: 1px;
+     font-weight: bold;
+     position: absolute;
+     left: 2%;
      top: 2%;
-     font-weight: 800;
- }
+}
  
  #portfolio {
      background: white;
@@ -82,9 +80,9 @@
      padding: 1px;
      font-size: 13px;
      font-weight: bold;
-     position: fixed;
-     left: 18%;
-     top: 25px;
+     position: absolute;
+     left: 2%;
+     top: 5%;
  }
  
  #contact {
@@ -96,8 +94,8 @@
      font-size: 13px;
      font-weight: bold;
      position: fixed;
-     left: 18%;
-     top: 45px;
+     left: 2%;
+     top: 7.5%;
  }
  
  div {
@@ -211,7 +209,6 @@
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
      font-size: 10px;
      color: white;
-     border-top: 2px solid #bde;
      padding: 3.5px;
      text-align: center;
  }
