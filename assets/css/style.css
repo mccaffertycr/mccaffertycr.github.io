@@ -3,22 +3,25 @@
 }
 
 body {
-    background-image: url("../images/backgroundpattern.jpg");
+    background-image: url("../images/colbackground.jpg");
     position: relative;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 nav {
-    background: black;
     width: 100%;
-    height: 100px;
+    height: 50px;
     display: inline-block;
+    color: black;
+}
+h1:hover {
+    background: black;
+    color: white;
+}
+
+#about:hover {
     color: #bde;
 }
-
-nav:hover {
-    color: #9f9;
-}
-
 h2:hover {
     color: #9f9;
 }
@@ -27,64 +30,79 @@ footer:hover {
     color: #9f9;
 }
 
-#submit:hover {
-    color: #9f9;
+#portfolio:hover {
+    color: white;
+    background: black;
+}
+
+#contact:hover {
+    color: white;
+    background: black;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
-    background: #666;
+    background: white;
     float: left;
     text-align: center;
     position: relative;
-    left: 18%;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    left: 2%;
+    top: 5%;
+    font-size: 16px;
     font-weight: bold;
-    font-size: 30px;
-    height: 100px;
-    width: 20%;
-    padding: 15px;
+    height: 95px;
+    width: 15%;
+    padding-top: 70px;
     margin-left: auto;
 }
 
 #about {
-    list-style-type: none;
-    text-decoration: none;
     text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 48px;
     position: fixed;
-    right: 31.4%;
-    top: 35px;
+    left: 4%;
+    top: 2%;
+    font-weight: 800;
 }
 
 #portfolio {
-    list-style-type: none;
-    text-decoration: none;
+    background: white;
     text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 24px;
+    width: 8%;
+    height: 16px;
+    padding: 1px;
+    font-size: 13px;
+    font-weight: bold;
     position: fixed;
-    right: 24.5%;
-    top: 35px;
+    left: 18%;
+    top: 25px;
 }
 
 #contact {
-    list-style-type: none;
-    text-decoration: none;
+    background: white;
     text-align: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 24px;
+    width: 8%;
+    height: 16px;
+    padding: 1px;
+    font-size: 13px;
+    font-weight: bold;
     position: fixed;
-    right: 19%;
-    top: 35px;
+    left: 18%;
+    top: 45px;
 }
 
 div {
     clear: both;
     background: black;
+    opacity: .95;
     width: 64%;
     height: 580px;
-    margin: 15px auto;
+    margin:  50px auto;
     overflow: auto;
 }
 
