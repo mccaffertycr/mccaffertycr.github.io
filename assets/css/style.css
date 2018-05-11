@@ -21,10 +21,6 @@
      display: inline-block;
      color: black;
  }
- h1:hover {
-     background: black;
-     color: white;
- }
  
  #about:hover {
      color: white;
