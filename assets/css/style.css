@@ -191,3 +191,13 @@ form {
      padding: 3.5px;
      text-align: center;
  }
+
+ @media (max-width: 960px), screen { }
+
+ @media (max-width: 768px), screen { }
+
+ @media (max-width: 640px), screen {
+     h1 {
+
+     }
+  }
