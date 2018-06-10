@@ -82,7 +82,7 @@
      top: 8%;
  }
  
- div {
+ .container {
      clear: both;
      opacity: .95;
      height: 580px;
@@ -98,6 +98,38 @@
      position: absolute;
      left: 15%;
      top: 10%;
+}
+
+#link-holder {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0%;
+    top: 49%;
+}
+#link1 {
+    width: 25%;
+    height: 30%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+#link2 {
+    width: 25%;
+    height: 30%;
+    position: absolute;
+    left: 28%;
+    top: 0%;
+}
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    margin: 0 auto;
 }
  
  img {
@@ -120,8 +152,10 @@
 }
  
  .portfolio {
-     display: inline-block;
-     width: 20%;
+     position: absolute;
+     width: 80%;
+     left: 0;
+     top: -60%;
  }
  
  .portfolio.links {
@@ -140,7 +174,7 @@ form {
      font-size: 18px;
      color: white;
      margin-left: 40%;
-     margin-top: 10%;
+     margin-top: 15%;
 }
  
  #name {
@@ -461,7 +495,7 @@ form {
 
      form {
          font-size: 16px;
-         margin-top: 10%;
+         margin-top: 20%;
          margin-left: 20%;
      }
 
