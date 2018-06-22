@@ -122,6 +122,15 @@
     left: 28%;
     top: 0%;
 }
+
+#link3 {
+    width: 25%;
+    height: 30%;
+    position: absolute;
+    left: 56%;
+    top: 0%;
+}
+
 h2 {
     font-family: 'Space Mono', monospace;
     font-size: 18px;
