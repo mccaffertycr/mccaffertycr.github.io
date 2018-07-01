@@ -154,6 +154,8 @@ h2 {
     position: absolute;
     left: 55%;
     top: 35%;
+    opacity: .7;
+    border-radius: 10%;
 }
  
  p {
