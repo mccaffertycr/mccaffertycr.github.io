@@ -21,6 +21,23 @@
      display: inline-block;
      color: black;
  }
+
+ #twitter, #github, #linkedin {
+     width: 64px; 
+     height: 64px;
+ }
+ 
+#github {
+    background: url("../images/github.png");
+}
+
+ #twitter {
+     background: url("../images/twitter.png");
+ }
+
+ #linkedin {
+     background: url("../images/linkedin.png");
+ }
  
  #about:hover {
      color: white;
@@ -144,6 +161,14 @@
     height: 30%;
     position: absolute;
     left: 28%;
+    top: 50%;
+}
+
+#link6 {
+    width: 25%;
+    height: 30%;
+    position: absolute;
+    left: 56%;
     top: 50%;
 }
 
