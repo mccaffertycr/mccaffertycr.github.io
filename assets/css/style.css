@@ -60,6 +60,10 @@
      color: inherit;
  }
  
+ #info-wrapper {
+   transform: rotate(90deg);
+ }
+ 
  #about {
      background: white;
      text-align: center;
